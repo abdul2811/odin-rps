@@ -1,3 +1,19 @@
+const body = document.querySelector('body');
+
+const rock = document.createElement('button');
+rock.textContent = "Rock";
+
+const paper = document.createElement('button');
+paper.textContent = "Paper";
+
+const scissors = document.createElement('button');
+scissors.textContent = "Scissors";
+
+body.appendChild(rock);
+body.appendChild(paper);
+body.appendChild(scissors);
+
+
 const RPS = ["rock", "paper", "scissors"];
 // let compScore = 0;
 // let playerScore = 0;
@@ -48,4 +64,4 @@ function game() {
     }
 }
 
-console.log(game());
+// console.log(game());
